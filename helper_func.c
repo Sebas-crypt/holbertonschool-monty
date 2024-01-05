@@ -16,8 +16,7 @@ void getf(m_stack_t **g_stack, char *line, unsigned int line_number)
 	if (!instruct)
 		return;
 
-	instruction_t instructions[] = 
-	{
+	instruction_t instructions[] = {
 		{"push", push},
 		{"pall", pall},
 		{"pop", pop},
